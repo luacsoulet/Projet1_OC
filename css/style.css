@@ -92,6 +92,11 @@ a {
     font-size: 16px;
 }
 
+.navigations-links .populaires-links:hover ,.hebergements-links:hover{
+    color: var(--main-color);
+    border-top: solid 2px ;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

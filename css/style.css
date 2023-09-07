@@ -58,6 +58,16 @@ a {
     color: var(--main-bg-color)
 }
 
+/************Header************/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 79px;
+    width: 100%;
+    gap: 950px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

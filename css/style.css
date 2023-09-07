@@ -63,12 +63,13 @@ a {
 .header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 79px;
     width: 100%;
-    gap: 950px;
 }
 
 .header .logo{
+    flex: 0 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,9 +77,15 @@ a {
 
 .header .logo img {
     height: 19px;
-    width: 61px;
+    width: 61.09px;
 }
 
+.navigations-links {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

@@ -1,6 +1,9 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 :root {
@@ -87,9 +90,10 @@ a {
     gap: 68px;
 }
 
-.navigations-links .hebergements-links, 
-.populaires-links {
+.navigations-links .hebergements-links p, 
+.populaires-links p{
     font-size: 16px;
+    margin-top: 14px;
 }
 
 .navigations-links .populaires-links:hover ,.hebergements-links:hover{

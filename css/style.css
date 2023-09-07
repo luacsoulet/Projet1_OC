@@ -74,6 +74,11 @@ a {
     justify-content: center;
 }
 
+.header .logo img {
+    height: 19px;
+    width: 61px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

@@ -68,6 +68,12 @@ a {
     gap: 950px;
 }
 
+.header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

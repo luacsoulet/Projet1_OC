@@ -86,6 +86,12 @@ a {
     flex-direction: row;
     gap: 68px;
 }
+
+.navigations-links .hebergements-links, 
+.populaires-links {
+    font-size: 16px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

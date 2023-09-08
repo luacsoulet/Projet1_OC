@@ -120,6 +120,17 @@ a {
     border-radius: 15px;
 }
 
+.recherche-form i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+    color: black;
+    background-color: var(--main-bg-color);
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

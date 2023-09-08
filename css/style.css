@@ -196,7 +196,22 @@ a {
 .infos {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 35px;
 }
+
+.infos .circle-info {
+    height: 24px;
+    width: 24px;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {

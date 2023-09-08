@@ -113,6 +113,13 @@ a {
     padding-top: 8px;
 }
 
+.recherche-form {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px var(--main-bg-color);
+    border-radius: 15px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

@@ -165,6 +165,12 @@ a {
     gap: 15px;
 }
 
+.filtre p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

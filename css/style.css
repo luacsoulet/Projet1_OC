@@ -125,7 +125,7 @@ a {
     height: 49px;
     width: 50px;
     border-radius: 15px 0 0 15px;
-    color: black;
+    color: #000000;
     background-color: var(--main-bg-color);
 }
 
@@ -134,13 +134,13 @@ a {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    color: black;
+    color: #000000;
 }
 .recherche-form input::placeholder {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
-    color: black;
+    color: #000000;
 }
 
 .recherche-form button {
@@ -162,6 +162,7 @@ a {
 .filtre {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 15px;
 }
 
@@ -169,6 +170,21 @@ a {
     font-size: 18px;
     font-weight: 700;
     color: #000000;
+}
+
+.filtre button{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 2px solid var(--main-bg-color);
+    border-radius: 25px;
+    padding: 4px 19px;
+    font-size: 17px;
+    font-weight: 700;
 }
 
 /****** Hebergements And Populaires ***********/

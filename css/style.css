@@ -191,6 +191,13 @@ a {
     background-color: var(--filter-bg-color);
 }
 
+/********Infos********/
+
+.infos {
+    display: flex;
+    flex-direction: row;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

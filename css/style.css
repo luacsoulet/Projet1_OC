@@ -101,6 +101,13 @@ a {
     border-top: solid 2px ;
 }
 
+/***********Formulaire-filtre***************/
+.formulaire-filtre {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

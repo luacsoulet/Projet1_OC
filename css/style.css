@@ -129,6 +129,20 @@ a {
     background-color: var(--main-bg-color);
 }
 
+.recherche-form input {
+    border: 1px solid var(--main-bg-color);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.recherche-form input::placeholder {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;

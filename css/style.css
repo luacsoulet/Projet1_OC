@@ -116,8 +116,6 @@ a {
 .recherche-form {
     display: flex;
     flex-direction: row;
-    border: solid 1px var(--main-bg-color);
-    border-radius: 15px;
 }
 
 .recherche-form i{

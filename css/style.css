@@ -101,7 +101,7 @@ a {
     border-top: solid 2px ;
 }
 
-/***********Formulaire-filtre***************/
+/*************Formulaire-filtre*****************/
 .formulaire-filtre {
     display: flex;
     flex-direction: column;
@@ -112,7 +112,7 @@ a {
 .titre-formulaire p {
     padding-top: 8px;
 }
-
+/********Formulaire********/
 .recherche-form {
     display: flex;
     flex-direction: row;
@@ -155,6 +155,14 @@ a {
     color: var(--main-bg-color);
     font-size: 18px;
     font-weight: 700;
+}
+
+/********Filtre********/
+
+.filtre {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 /****** Hebergements And Populaires ***********/

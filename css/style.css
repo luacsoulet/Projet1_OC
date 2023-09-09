@@ -96,7 +96,7 @@ a {
     margin-top: 14px;
 }
 
-.navigations-links .populaires-links:hover ,.hebergements-links:hover{
+.navigations-links .activites-links:hover ,.hebergements-links:hover{
     color: var(--main-color);
     border-top: solid 2px ;
 }

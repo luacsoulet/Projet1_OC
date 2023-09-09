@@ -380,6 +380,9 @@ a {
     width: 100%;
 }
 
+.activites .card-txt {
+    padding: 20px 19px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

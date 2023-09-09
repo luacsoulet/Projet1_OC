@@ -256,6 +256,12 @@ a {
     height: 124px;
 }
 
+.hebergements-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 15px;
+}
+
 
 /****** Populaires ***********/
 .populaires {

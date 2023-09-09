@@ -228,8 +228,12 @@ a {
 
 /****** Hebergements ***********/
 .hebergements {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     width: 65%;
 }
+
 
 /****** Populaires ***********/
 .populaires {

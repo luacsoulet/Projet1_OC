@@ -356,7 +356,9 @@ a {
 
 .activites .activites-cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .activites .card {
@@ -371,7 +373,7 @@ a {
 .activites .card .image {
     border-radius: 20px 20px 0px 0px;
     height: 380px;
-    width: 100%;
+    width: auto;
     overflow: hidden;
 }
 

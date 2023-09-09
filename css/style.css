@@ -272,7 +272,10 @@ a {
     padding-top: 5px;
 }
 
-
+.hebergements-cards .card-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+}
 /****** Populaires ***********/
 .populaires {
     width: 32%;

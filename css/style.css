@@ -244,22 +244,24 @@ a {
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    padding-bottom: 0px;
+    padding: 0px;
     flex: 1 0 0;
     height: auto;
     width: 250px;
 }
 
 .hebergements-cards img {
-    border-radius:18px 18px 0 0;
+    border: 5px solid white;
+    border-radius:20px 20px 0 0;
     height: 124px;
+    margin-bottom: 4px;
 }
 
 .hebergements-cards .card-content {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding: 0 15px;
+    padding: 0 15px 15px;
 }
 
 .hebergements-cards .card-txt {
@@ -269,12 +271,16 @@ a {
 }
 
 .hebergements-cards .card-title {
-    padding-top: 5px;
+    font-weight: 700;
 }
 
 .hebergements-cards .card-subtitle {
     font-size: 14px;
     font-weight: 400;
+}
+
+.hebergements-cards .card-rating {
+    height: 13.25px;
 }
 /****** Populaires ***********/
 .populaires {

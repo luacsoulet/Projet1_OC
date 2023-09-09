@@ -241,6 +241,14 @@ a {
     gap: 30px;
 }
 
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 0px;
+    flex: 1 0 0;
+}
+
 
 /****** Populaires ***********/
 .populaires {

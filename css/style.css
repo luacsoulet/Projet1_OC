@@ -396,6 +396,7 @@ a {
     flex-wrap: wrap;
     height: 163px;
     max-width: 1340px;
+    margin-top: 35px;
     background-color: var(--main-bg-color);
 }
 

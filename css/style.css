@@ -359,7 +359,7 @@ a {
     flex-direction: column;
     height: 439px;
     width: 297.5px;
-    overflow: hidden;
+    border-radius: 20px;
 }
 
 

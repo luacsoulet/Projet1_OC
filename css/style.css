@@ -362,11 +362,23 @@ a {
 .activites .card {
     display: flex;
     flex-direction: column;
+    padding: 0;
     height: 439px;
     width: 297.5px;
     border-radius: 20px;
 }
 
+.activites .card .image {
+    border-radius: 20px 20px 0px 0px;
+    height: 380px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.activites .card img {
+    height: 100%;
+    width: 100%;
+}
 
 
 

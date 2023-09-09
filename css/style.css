@@ -351,6 +351,15 @@ a {
     flex-direction: column;
     gap: 30px;
     padding: 30px;
+    margin-top: 35px;
+}
+
+.activites .activites-cards {
+    display: flex;
+    flex-direction: column;
+    height: 439px;
+    width: auto;
+    overflow: hidden;
 }
 
 

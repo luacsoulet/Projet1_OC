@@ -389,6 +389,7 @@ a {
 }
 
 /****** Hebergements And Populaires ***********/
+
 .footer-infos {
     display: flex;
     flex-direction: row;
@@ -397,6 +398,13 @@ a {
     max-width: 1340px;
     background-color: var(--main-bg-color);
 }
+
+.footer-infos .categories {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+} 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

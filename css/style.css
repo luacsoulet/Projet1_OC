@@ -485,6 +485,11 @@ a {
         display: flex;
         align-items: center;
     }
+
+    .footer-infos {
+        flex-direction: row;
+        gap: 30px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */

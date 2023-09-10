@@ -426,8 +426,7 @@ a {
         gap: 20px;
     }
 
-    .filtre button
-    .hebergements-and-populaires {
+    .hebergements-and-populaires{
         flex-direction: column;
     }
 

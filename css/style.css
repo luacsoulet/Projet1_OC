@@ -469,6 +469,15 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 14px;
     }
+
+    .activites .card {
+        height: 270px;
+        width: 193.5px;
+    }
+
+    .activites .card .image {
+        height: 200px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */

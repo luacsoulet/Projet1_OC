@@ -433,7 +433,16 @@ a {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        gap: 35px;
+    }
+
+    .populaires-cards img {
+        height: 146px;
+        width: 91.6px;
+    }
+
+    .populaires-cards .card{
+        width: 264.6px;
     }
 
     .populaires-cards a {
@@ -441,11 +450,11 @@ a {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 

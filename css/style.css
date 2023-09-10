@@ -477,6 +477,13 @@ a {
 
     .activites .card .image {
         height: 200px;
+        width: auto;
+    }
+
+    .activites .card-txt {
+        height: 10%;
+        display: flex;
+        align-items: center;
     }
 }
 

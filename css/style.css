@@ -259,7 +259,7 @@ a {
 .hebergements-cards .image {
     border-radius:18px 18px 0 0;
     height: 124px;
-    width: 240px;
+    width: auto;
     overflow: hidden;
 }
 

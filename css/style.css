@@ -505,4 +505,14 @@ a {
         justify-content: center;
         height: 115px;
     }
+
+    .header .logo{
+        height: 79px;
+    }
+
+    .navigations-links {
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 0;
+    }
 }

@@ -571,4 +571,15 @@ a {
     .recherche-form button {
         display: none;
     }
+
+    .filtre .buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .filtre button {
+        width: 162.5px;
+        font-size: 14px;
+    }
 }

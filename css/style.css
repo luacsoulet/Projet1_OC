@@ -543,7 +543,17 @@ a {
     }
 
     .formulaire-filtre {
-        padding: 0 20px 0 20px;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .formulaire{
+        width: 100%;
+    }
+
+    .recherche-form{
+        width: auto;
+        justify-content: space-between;
     }
 
     .recherche-form .fa-magnifying-glass{

@@ -515,4 +515,24 @@ a {
         align-items: center;
         gap: 0;
     }
+    
+    .navigations-links a{
+        width: 100%;
+    }
+
+    .navigations-links .categories-links{
+        padding-bottom: 17px;
+        border-bottom: solid 2px var(--main-bg-color);
+    }
+
+    .categories-links p{
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigations-links .categories-links:hover{
+        color: var(--main-color);
+        border-bottom: solid 2px ;
+        border-top: none;
+    }
 }

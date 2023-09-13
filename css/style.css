@@ -582,4 +582,33 @@ a {
         width: 162.5px;
         font-size: 14px;
     }
+
+    .hebergements-and-populaires section:nth-child(1){
+        background-color: transparent;
+    }
+
+    .hebergements-and-populaires section{
+        border-radius: 0;
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .populaires{
+        width: auto;
+        padding: 30px 20px 30px 20px;
+        background-color: var(--main-bg-color);
+    }
+
+    .populaires-cards{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .populaires-cards .card{
+        margin: 0;
+    }
 }

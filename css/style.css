@@ -611,4 +611,16 @@ a {
     .activites .card .image {
         height: 141px;
     }
+
+    .footer-infos{
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+        margin-top: 0;
+        gap: 50px;
+    }
+
+    .footer-infos .categories{
+        padding: 0;
+    }
 }

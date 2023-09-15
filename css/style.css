@@ -439,6 +439,8 @@ a {
         width: 100%;
     }
 
+    /*************Populaires***********/
+
     .populaires {
         display: flex;
         flex-direction: column;
@@ -449,6 +451,7 @@ a {
         padding: 30px;
     }
 
+    /*****Populaires-cards*****/
     .populaires-cards {
         display: grid;
         grid-template-rows: repeat(1,146px);
@@ -478,9 +481,13 @@ a {
         font-size: 14px;
     }
 
+    /**************Activites***********/
+
     .activites .card .image {
         height: 200px;
     }
+
+    /*************Footer**********/
 
     .footer-infos {
         gap: 30px;
@@ -495,6 +502,7 @@ a {
         padding: 0;
         gap: 35px;
     }
+    /***************Header****************/
 
     .header{
         flex-direction: column;
@@ -505,6 +513,8 @@ a {
     .header .logo{
         height: 79px;
     }
+
+    /*******Navigations-Links*******/
 
     .navigations-links {
         flex-flow: row nowrap;
@@ -532,10 +542,14 @@ a {
         border-top: none;
     }
 
+    /************Formulaire************/
+
     .formulaire-filtre {
         align-items: center;
         padding: 0 20px;
     }
+
+    /***Formulaire de recherche***/
 
     .formulaire{
         width: 100%;
@@ -562,6 +576,8 @@ a {
         display: none;
     }
 
+    /********Filter******/
+
     .filtre .buttons{
         justify-content: center;
         flex-wrap: wrap;
@@ -572,6 +588,8 @@ a {
         width: 162.5px;
         font-size: 14px;
     }
+
+    /********Hébergements-and-Populaires******/
 
     .hebergements-and-populaires section:nth-child(1){
         background-color: transparent;
@@ -584,6 +602,8 @@ a {
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }
+
+    /********Populaires*********/
 
     .populaires{
         width: auto;
@@ -602,6 +622,8 @@ a {
         margin: 0;
     }
 
+    /************Activites***********/
+
     .activites .activites-cards {
         grid-auto-flow: column;
         grid-template-rows: repeat(4,minmax(200px,1fr));
@@ -611,6 +633,8 @@ a {
     .activites .card .image {
         height: 141px;
     }
+
+    /************Footer*************/
 
     .footer-infos{
         flex-direction: column;

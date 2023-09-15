@@ -601,4 +601,14 @@ a {
     .populaires-cards .card{
         margin: 0;
     }
+
+    .activites .activites-cards {
+        grid-auto-flow: column;
+        grid-template-rows: repeat(4,minmax(200px,1fr));
+        grid-template-columns: repeat(1,minmax(180px,1fr));
+    }
+
+    .activites .card .image {
+        height: 141px;
+    }
 }
